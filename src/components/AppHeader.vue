@@ -24,7 +24,7 @@ export default {
                     </ul>
                 </div>
                 <div class="col-3">
-                    <div class="p-3  align-middle cart-img ">
+                    <div class="p-3  align-middle cart-img mt-3">
                         <img src="../assets/img/icon/cart-icon.png" />
                         <button class="btn ms-3">Live streaming</button>
                     </div>
