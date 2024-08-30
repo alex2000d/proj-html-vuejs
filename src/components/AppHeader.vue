@@ -24,7 +24,7 @@ export default {
                     </ul>
                 </div>
                 <div class="col-3">
-                    <div class="p-3  align-middle cart-img mt-3">
+                    <div class="p-3  align-middle cart-img ">
                         <img src="../assets/img/icon/cart-icon.png" />
                         <button class="btn ms-3">Live streaming</button>
                     </div>
@@ -40,7 +40,8 @@ export default {
                        <h1 class="white fs">Future of <br> Esport</h1>
                        <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae vero sed harum impedit in saepe illo aut tenetur tempore praesentium distinctio ad nesciunt.</p>
                        <img src="../assets/img/game-controler.png" alt="">
-                       <button class="button-two">EXPLORE GAMES</button>
+                       <button class="button-two">EXPLORE GAMES<i class="fa-solid fa-angles-right ms-3"></i></button>
+                       <button class="button-play mx-4"><img src="../assets/img/icon/play-icon.png" alt=""></button>
                     </div>
                 </div>
                 <div class="col-7">
@@ -144,6 +145,31 @@ button {
     left: 18px;
     bottom: 225px;
     position: relative;
+  }
+
+  .button-play img{
+    width: 20px;
+    left: 2px;
+    bottom: 0px;
+    position: relative;
+  }
+  
+
+  .button-play{
+    left: 18px;
+    bottom: 225px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #ffffff;
+    padding: 1.3em 1.6em;
+  }
+
+  .button-play:hover{
+    background-color: white;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #23c483;
+    transform: translateY(-7px);
   }
   
   button:hover {

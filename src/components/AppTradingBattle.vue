@@ -91,7 +91,7 @@ export default {
                         </div>
                     </div>
                     <div class="button-center py-5">
-                        <button class="btn">View all match</button>
+                        <button class="btn">View all match <i class="fa-solid fa-angles-right ms-2"></i></button>
                     </div>
                  </div>
              </div>

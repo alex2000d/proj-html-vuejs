@@ -37,7 +37,7 @@ export default {
                         <div class="col-10">
                             <h2 class="white">Gaming news</h2>
                             <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae vero sed harum impedit in saepe illo aut tenetur.</p>
-                            <button class="btn">PLAY NOW</button>
+                            <button class="btn">PLAY NOW <i class="fa-solid fa-angles-right ms-2"></i></button>
                         </div>
                     </div>
                 </div>
