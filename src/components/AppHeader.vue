@@ -111,7 +111,7 @@ header {
     font-size: 75px;
 }
 
-/* From Uiverse.io by cssbuttons-io */ 
+
 button {
     padding: 1.3em 3em;
     font-size: 12px;
