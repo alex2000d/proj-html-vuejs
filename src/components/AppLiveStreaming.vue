@@ -5,29 +5,27 @@ export default {
 </script>
 <template>
     <div class="bg">
-        <div class="container width ">
+        <div class="container width position-streaming ">
             <div class="row">
                 <div class="col-12">
-                        <div class="content text-center mt-5">
-                            <h3 class="green">Live streaming</h3>
-                            <h1 class="text-white fs">Watch the streams</h1>
-                            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia architecto tempora assumenda molestiae soluta eligendi expedita ducimus. Similique tempora impedit consectetur.</p>
-                            <img class="video" src="../assets/img/video-bg.png">
-                        </div>
-                        <div>
-                            <button class="button-play mx-4"><img src="../assets/img/icon/play-icon.png" alt=""></button>
-                            <h4 class="position">League of Legends</h4>
-                            <button class="btn position-live"> <i class="fa-solid fa-podcast"></i>Live</button>
-                            <div class="position-person">
-                                <span class="green me-2">356,599</span>
-                                <span class="me-3">Viewers</span>
-                                <span class="green me-2">23,599</span>
-                                <span>Likes</span>
-                            </div>
-                        </div>
-                   </div>
+                    <div class="content text-center">
+                        <h3 class="green mt-2">Live streaming</h3>
+                        <h1 class="text-white fs">Watch the streams</h1>
+                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia architecto tempora assumenda molestiae soluta eligendi expedita ducimus. Similique tempora impedit consectetur.</p>
+                        <img class="video" src="../assets/img/video-bg.png">
+                        <button class="button-play mx-4"><img src="../assets/img/icon/play-icon.png" alt=""></button>
+                        <h4 class="position text-white">League of Legends</h4>
+                        <button class="btn position-live"> <i class="fa-solid fa-podcast"></i>Live</button>
+                         <div class="d-flex position-like">
+                            <p class="green me-2">356,599</p>
+                            <p class="text-white me-3">Viewers</p>
+                            <p class="green me-2">23,789</p>
+                            <p class="text-white">Likes</p>
+                         </div>
+                    </div>
+                </div>
               </div>
-          </div>
+           </div>
       </div>
 </template>
 <style lang="scss" scoped>
@@ -50,12 +48,14 @@ export default {
     }
 
     .fs{
-        font-size: 60px;
+        font-size: 35px;
     }
 
     .video{
         width: 80%;
-        margin-top: 50px;
+        position: relative;
+        right: -55px;
+        top: 30px;
     }
 
     .button-play img{
@@ -83,8 +83,8 @@ export default {
       
     
       .button-play{
-        left: 425px;
-        bottom: 280px;
+        left: -375px;
+        bottom: 15px;
         position: relative;
         cursor: pointer;
         border-radius: 100px;
@@ -108,23 +108,26 @@ export default {
       }
 
       .position{
-        left: 380px;
-        bottom: 280px;
         position: relative;
-        color: #fff;
-    }
+        left: 20px;
+        bottom: 200px;
+      }
 
     .position-live{
-        left: 730px;
-        bottom: 515px;
+        left: 335px;
+        bottom: 430px;
         position: relative;
-        color: #fff;
     }
 
-    .position-person{
-        left: 140px;
-        bottom: 160px;
+    
+    .position-like{
+        left: 135px;
+        bottom: 90px;
         position: relative;
-        color: #fff;
+    }
+
+    .position-streaming{
+        position: relative;
+        bottom: -70px;
     }
 </style>

@@ -4,6 +4,8 @@ import AppCompetitiveGaming from './AppCompetitiveGaming.vue';
 import AppTradingBattle from './AppTradingBattle.vue';
 import AppQuickFacts from './AppQuickFacts.vue';
 import AppLiveStreaming from './AppLiveStreaming.vue';
+import AppFutioFeedback from './AppFutioFeedback.vue';
+
 
 export default {
   components: {
@@ -11,6 +13,7 @@ export default {
     AppTradingBattle,
     AppQuickFacts,
     AppLiveStreaming,
+    AppFutioFeedback,
   
   }
 }
@@ -21,6 +24,7 @@ export default {
       <AppTradingBattle />
       <AppQuickFacts />
       <AppLiveStreaming />
+      <AppFutioFeedback />
     </div>
   </template>
 <style lang="">
