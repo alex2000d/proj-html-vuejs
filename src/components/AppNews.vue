@@ -74,28 +74,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="content bg-blue py-5">
-                           <div class="row">
-                            <div class="col-7">
-                                <div class="content">
-                                   <h2 class="text-white mx-5">Subcsribe Newsletter</h2>
-                                   <p class="text-white mx-5">Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Quidem voluptate</p>
-                                </div>
-                            </div>
-                            <div class="col-5">
-                                <div class="content mt-4">
-                                    <input class="bg-blue p-3 width-input" type="email" placeholder="enter your mail">
-                                    <button class="button-play mx-4"><img src="../assets/img/icon/send-icon.png" alt=""></button>
-                                </div>
-                            </div>
-                           </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </div>
 </template>
@@ -103,6 +82,12 @@ export default {
     .position{
         position: relative;
         top: -330px;
+    }
+
+    .position-container{
+        position: relative;
+        top: -1px;
+        z-index: 1;
     }
 
     .width{
@@ -132,6 +117,11 @@ export default {
         border-radius: 20px;
         max-height: max-content;
     }
+    .bg-blues{
+        background-color:rgb(48, 65, 94);
+        border-radius: 20px;
+        max-height: max-content;
+    }
 
     .content-gamers{
         width: 100%;
@@ -155,24 +145,5 @@ export default {
         border-radius: 10px;
     }
 
-   
-
-    .button-play{
-        left: 270px;
-        bottom: 50px;
-        position: relative;
-        cursor: pointer;
-        border-radius: 100px;
-        background-color: rgb(148, 203, 83);
-        padding: 0.3em 0.5em;
-        transition: all 0.3s ease 0s;
-      }
-
-      .button-play:hover{
-        background-color: gray;
-        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-        color: #23c483;
-        transform: translateY(-7px);
-      }
 
 </style>
