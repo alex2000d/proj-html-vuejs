@@ -8,14 +8,14 @@ export default {
         <div class="container width">
             <div class="row">
                 <div class="col-12">
-                    <div class="content py-5">
+                    <div class="content mt-5">
                         <img src="../assets/img/banner-item-bg.png">
                         <p class="text-white text-center position">Make offer</p>
                         <h1 class="text-white text-center position">Get 70% Offer Discount</h1>
+                        <img class="position-phone" src="../assets/img/banner-item-obj1.png">
+                        <img class="position-headphones" src="../assets/img/banner-item-obj2.png">
+                        <button class="button position-button">GET OTHERS<i class="fa-solid fa-arrow-down ms-3"></i></button>
                     </div>
-                    <img class="position-phone" src="../assets/img/banner-item-obj1.png">
-                    <img class="position-headphones" src="../assets/img/banner-item-obj2.png">
-                    <button class="button position-button">GET OTHERS<i class="fa-solid fa-arrow-down ms-3"></i></button>
                 </div>
             </div>
         </div>
@@ -28,8 +28,7 @@ export default {
 }
 
 .content img{
-    height: 250px;
-    width: 100%;
+    height: 275px;
     position: relative;
     
 }
@@ -48,14 +47,14 @@ export default {
 
 .position-headphones{
     position: relative;
-    top: -410px;
+    top: -370px;
     left: 620px;
     width: 15%;
 }
 
 .position-button{
     position: relative;
-    top: -335px;
+    top: -315px;
     left: 85px;
 }
 

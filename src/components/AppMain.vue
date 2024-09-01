@@ -6,6 +6,8 @@ import AppQuickFacts from './AppQuickFacts.vue';
 import AppLiveStreaming from './AppLiveStreaming.vue';
 import AppFutioFeedback from './AppFutioFeedback.vue';
 import AppSales from './AppSales.vue';
+import AppNews from './AppNews.vue';
+
 
 export default {
   components: {
@@ -15,6 +17,7 @@ export default {
     AppLiveStreaming,
     AppFutioFeedback,
     AppSales,
+    AppNews,
   
   }
 }
@@ -27,6 +30,7 @@ export default {
       <AppLiveStreaming />
       <AppFutioFeedback />
       <AppSales />
+      <AppNews />
     </div>
   </template>
 <style lang="">
